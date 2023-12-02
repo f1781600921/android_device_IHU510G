@@ -27,3 +27,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="IHU510G-user 9 PQ2A.190405.003 148 dev-keys"
 
 BUILD_FINGERPRINT := ecarx/IHU510G/IHU510G:9/PQ2A.190405.003/148:user/dev-keys
+
+# enable stock zip packages flash
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
+    ro.secure=1 \
+    ro.adb.secure=0 \
+    ro.debuggable=1 \
