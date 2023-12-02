@@ -12,8 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from IHU521G device
-$(call inherit-product, device/ecarx/IHU521G/device.mk)
+# Inherit from IHU510G device
+$(call inherit-product, device/ecarx/IHU510G/device.mk)
 
 PRODUCT_DEVICE := IHU510G
 PRODUCT_NAME := omni_IHU510G
