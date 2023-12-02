@@ -1,4 +1,4 @@
-# Android device tree for ecarx FE6A3 (IHU510G)
+# Android device tree for ecarx SS13 (IHU510G)
 
 ```
 #
